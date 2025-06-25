@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>E:\projects\SMS_Project\dist\SMS_Project.jar</jar>
+  <outfile>E:\projects\SMS_Project\sms.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <classPath>
+    <mainClass>sms_project.sign_in_page</mainClass>
+    <cp>E:\JAR FILES\activation-1.1.1.jar</cp>
+    <cp>E:\JAR FILES\core-3.5.3.jar</cp>
+    <cp>E:\JAR FILES\javase-3.3.0.jar</cp>
+    <cp>E:\JAR FILES\mssql-jdbc-11.2.2.jre18.jar</cp>
+    <cp>E:\JAR FILES\jcalendar-1.4.jar</cp>
+    <cp>E:\JAR FILES\itextpdf-5.5.13.2.jar</cp>
+    <cp>E:\NET BEANS\NetBeans-24\netbeans\java\modules\ext\AbsoluteLayout.jar</cp>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>
